@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/sawan/Documents/sqlite-jdbc-3.7.2.jar",
+        "/home/sawan/Documents/mysql-connector-java-8.0.30/mysql-connector-java-8.0.30.jar"
+    ]
+}

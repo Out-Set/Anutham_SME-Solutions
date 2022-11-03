@@ -1,0 +1,27 @@
+a) big-endian in Hexadecimal it is 0xFE01  
+convert this to binary Converting FE01 to binary F => 1111 E => 1110 0 => 0000 1 => 0001 
+So, in binary FE01 is 1111111000000001  
+Now, convert this to 2's complement decimal  
+since left most bit is 1, this number is negative number. 
+so, follow these steps below to convert this into a decimal value. 
+
+I. first flip all the bits. Flip all 0's to 1 and all 1's to 0.    
+1111111000000001 is flipped to 0000000111111110 II. 
+Add 1 to above result 0000000111111110 + 1 = 0000000111111111 III. 
+Now convert this result to decimal value 
+Converting 111111111 to decimal 111111111 => 1x2^8+1x2^7+1x2^6+1x2^5+1x2^4+1x2^3+1x2^2+1x2^1+1x2^0 
+=> 1x256+1x128+1x64+1x32+1x16+1x8+1x4+1x2+1x1 => 256+128+64+32+16+8+4+2+1 
+=> 511 Answer: -511  
+
+b) little-endian in Hexadecimal it is 0x01FE  
+convert this to binary Converting 01FE to binary 0 => 0000 
+1 => 0001 
+F => 1111 
+E => 1110 
+So, in binary 01FE is 0000000111111110  
+Now, convert this to 2's complement decimal  
+since left most bit is 0, this number is positive 
+so, we can directly convert this into a decimal value Converting 111111110 to decimal 111111110 => 1x2^8+1x2^7+1x2^6+1x2^5+1x2^4+1x2^3+1x2^2+1x2^1+0x2^0 
+=> 1x256+1x128+1x64+1x32+1x16+1x8+1x4+1x2+0x1 
+=> 256+128+64+32+16+8+4+2+0 
+=> 510 Answer: 510 
