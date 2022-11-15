@@ -8,9 +8,6 @@ class Node:
         self.right = None
       
 
- 
-
-
 def equal(self, other): 
       
     # In case Both trees are empty 
@@ -27,9 +24,6 @@ def equal(self, other):
     return False
 
  
-
- 
-
 def count(root, num): 
     count = 0
     if root is None: 
@@ -80,3 +74,5 @@ else:
     
     print("Number of times given number appears")
     print(count(root1,num))
+
+    

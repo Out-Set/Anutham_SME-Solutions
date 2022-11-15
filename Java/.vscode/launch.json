@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Java_4ad9ef46"
+        },
+        {
+            "type": "java",
+            "name": "Launch strList",
+            "request": "launch",
+            "mainClass": "strList",
+            "projectName": "Java_4ad9ef46"
+        },
+        {
+            "type": "java",
+            "name": "Launch decToHex",
+            "request": "launch",
+            "mainClass": "decToHex",
+            "projectName": "Java_4ad9ef46"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "Java_4ad9ef46"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestMyMap",
+            "request": "launch",
+            "mainClass": "TestMyMap",
+            "projectName": "Java_4ad9ef46"
+        },
+        {
+            "type": "java",
+            "name": "Launch SalaryCalculator",
+            "request": "launch",
+            "mainClass": "SalaryCalculator",
+            "projectName": "Java_4ad9ef46"
+        },
+        {
+            "type": "java",
             "name": "Launch RecursiveMethods",
             "request": "launch",
             "mainClass": "RecursiveMethods",
